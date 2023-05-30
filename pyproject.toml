@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "m5-kmdb"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Araujo <lucas984618740@gmail.com>"]
+readme = "README.md"
+packages = [{include = "m5_kmdb"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+ipdb = "^0.13.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
